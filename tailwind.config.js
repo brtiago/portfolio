@@ -78,13 +78,7 @@ module.exports = {
         900: '#320103',
         950: '#190002',
       },
-     },     
-    fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
-    },
-    fontSize: {
-      'xxs': '0.0625rem',
-    },
+     },
 
     extend: {},
   },

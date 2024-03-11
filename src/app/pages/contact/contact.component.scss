@@ -1,0 +1,7 @@
+.contact-button {
+  @apply inline-block relative rounded-lg bg-primary-1 px-8 py-3 text-center text-sm font-semibold
+   text-text-50 outline-none ring-accent-1 transition duration-100 hover:bg-accent-200
+   focus-visible:ring active:bg-accent-500 md:text-base
+   before:block before:absolute before:h-full before:w-full before:bg-text-400 before:left-0
+   before:top-0 before:-translate-y-full hover:before:translate-y-0 before:transition-transform;
+}

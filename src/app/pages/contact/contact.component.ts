@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {ClipboardModule} from '@angular/cdk/clipboard';
 import { UiButtonComponent } from '../../components/ui-button/ui-button.component';
 
@@ -10,5 +10,7 @@ import { UiButtonComponent } from '../../components/ui-button/ui-button.componen
   styleUrl: './contact.component.scss'
 })
 export class ContactComponent {
-  value = "email@example.com";
+  @Input() button = {
+    name: "email"
+  }
 }

@@ -1,5 +1,5 @@
 .page-footer {
-    @apply bg-primary-1 py-12 px-6 sm:bg-accent-200;
+    @apply bg-color2 py-12 px-6 sm:bg-color2;
 }
 
 .footer-aside {
@@ -7,11 +7,11 @@
 }
 
 .gradient {
-    @apply bg-gradient-to-r from-primary-1 via-mid-1 via-35% to-accent-1;
+    @apply bg-gradient-to-r from-color1 via-color2 via-35% to-color4;
 }
 
 a {
-    @apply fill-text-50;
+    @apply fill-color2;
 }
 
 .social-list-icons {

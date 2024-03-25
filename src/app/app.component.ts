@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroComponent } from './pages/hero/hero.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -13,7 +14,8 @@ import { UiButtonComponent } from './components/ui-button/ui-button.component';
   imports: [
     RouterOutlet, 
     NavbarComponent, 
-    HeroComponent, 
+    HeroComponent,
+    ProjectsComponent,
     AboutComponent,
     ContactComponent, 
     FooterComponent, 
